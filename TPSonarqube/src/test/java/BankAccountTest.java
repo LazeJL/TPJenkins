@@ -2,8 +2,13 @@ package test.java;
 
 import main.java.org.tpJenkins.exercice2.Account;
 import main.java.org.tpJenkins.exercice2.Bank;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.testng.annotations.Test;
 
+
+import java.util.stream.Stream;
 
 import static org.testng.Assert.assertEquals;
 
@@ -57,5 +62,21 @@ public class BankAccountTest {
         b.transferMoney(a1, a2, 5);
         assertEquals(0.0, a1.getBalance());
         assertEquals(10.0, a2.getBalance());
+    }
+
+    @ParameterizedTest(name = "deposit - balance={0}, amount={1}")
+    @MethodSource("depositArgumentsProvider")
+    void deposit(double balance, double amount, double expectedBalance) {
+        Account account = new Account(123, balance, 0.0);
+        account.deposit(amount);
+        assertEquals(expectedBalance, account.getBalance());
+    }
+
+    private static Stream<Arguments> depositArgumentsProvider() {
+        return Stream.of(
+                Arguments.of(0.0, 100.0, 100.0),
+                Arguments.of(50.0, 50.0, 100.0),
+                Arguments.of(100.0, 0.0, 100.0)
+        );
     }
 }
