@@ -4,8 +4,6 @@ import main.java.org.tpJenkins.exercice2.Account;
 import main.java.org.tpJenkins.exercice2.Bank;
 import org.testng.annotations.Test;
 
-import java.util.stream.Stream;
-
 import static org.testng.AssertJUnit.assertEquals;
 
 public class BankAccountTest {
