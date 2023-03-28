@@ -4,7 +4,9 @@ import main.java.org.tpJenkins.exercice2.Account;
 import main.java.org.tpJenkins.exercice2.Bank;
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
+
+import static org.testng.Assert.assertEquals;
+
 
 public class BankAccountTest {
 
