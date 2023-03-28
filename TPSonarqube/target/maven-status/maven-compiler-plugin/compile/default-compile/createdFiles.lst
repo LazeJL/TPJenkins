@@ -1,0 +1,14 @@
+Tennis\AdvantageReceiver.class
+Tennis\TennisResult.class
+Tennis\TennisGame3.class
+CalculeMoyenne.class
+Tennis\DefaultResult.class
+Tennis\Deuce.class
+Tennis\GameServer.class
+Tennis\GameReceiver.class
+Tennis\TennisGame.class
+Tennis\TennisGame2.class
+Tennis\ResultProvider.class
+Tennis\TennisGame4.class
+Tennis\TennisGame1.class
+Tennis\AdvantageServer.class
