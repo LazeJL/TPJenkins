@@ -1,6 +1,8 @@
+package test.java;
+
+import main.java.org.tpTestFonctionels.Product;
+import main.java.org.tpTestFonctionels.ProductSearcher;
 import org.testng.annotations.Test;
-import org.tpTestFonctionels.Product;
-import org.tpTestFonctionels.ProductSearcher;
 
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;

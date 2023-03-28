@@ -1,4 +1,4 @@
-package org.tpJenkins.exercice2;
+package main.java.org.tpJenkins.exercice2;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.tpJenkins.exercice1;
+package main.java.org.tpJenkins.exercice1;
 
 import java.time.LocalDate;
 

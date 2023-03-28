@@ -1,4 +1,4 @@
-package org.exercice1;
+package main.java.org.exercice1;
 
 public class Factorielle {
     public int factorielle(int n) throws IllegalArgumentException {

@@ -1,5 +1,7 @@
+package test.java;
+
+import main.java.org.tpJenkins.exercice1.Book;
 import org.testng.annotations.Test;
-import org.tpJenkins.exercice1.Book;
 
 import java.time.LocalDate;
 import static org.testng.AssertJUnit.assertEquals;

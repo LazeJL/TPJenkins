@@ -1,4 +1,6 @@
-import org.exercice1.Factorielle;
+package test.java;
+
+import main.java.org.exercice1.Factorielle;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertThrows;

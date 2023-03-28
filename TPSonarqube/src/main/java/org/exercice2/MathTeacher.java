@@ -1,4 +1,4 @@
-package org.exercice2;
+package main.java.org.exercice2;
 
 public class MathTeacher implements Teacher {
     public void teach(Student student) {

@@ -1,4 +1,4 @@
-package org.exercice2;
+package main.java.org.exercice2;
 
 public class Person {
     private String name;

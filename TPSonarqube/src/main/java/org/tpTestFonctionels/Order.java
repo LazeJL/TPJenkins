@@ -1,4 +1,4 @@
-package org.tpTestFonctionels;
+package main.java.org.tpTestFonctionels;
 
 import java.util.ArrayList;
 import java.util.List;

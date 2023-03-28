@@ -1,4 +1,4 @@
-package org.tpTestFonctionels;
+package main.java.org.tpTestFonctionels;
 
 public class Product {
     private String name;

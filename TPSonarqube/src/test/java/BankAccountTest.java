@@ -1,5 +1,7 @@
+package test.java;
+
+import main.java.org.tpJenkins.exercice2.Account;
 import org.testng.annotations.Test;
-import org.tpJenkins.exercice2.Account;
 
 import static org.testng.AssertJUnit.assertEquals;
 

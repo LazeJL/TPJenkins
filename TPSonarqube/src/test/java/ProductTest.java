@@ -1,5 +1,7 @@
+package test.java;
+
+import main.java.org.tpTestFonctionels.Product;
 import org.testng.annotations.Test;
-import org.tpTestFonctionels.Product;
 
 import static org.testng.AssertJUnit.assertEquals;
 
