@@ -29,6 +29,15 @@ public class Bank {
         fromAccount.withdraw(amount);
         toAccount.deposit(amount);
     }
+
+    public Account getAccount(int accountId) {
+        for (Account account : accounts) {
+            if (account.getAccountId() == accountId) {
+                return account;
+            }
+        }
+        return null;
+    }
 }
 
 
